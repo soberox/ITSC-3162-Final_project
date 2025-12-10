@@ -24,7 +24,7 @@ Each solution is contained in its own Jupyter notebook so you can inspect the ex
 - `XGBoostRegressionProjectNotebook.ipynb` — XGBoost model to predict player value (field players only)
 - `classifying-which-preferred-foot-is-most-likely.ipynb` — classification model predicting preferred foot (RandomForest)
 - `Recommendation.ipynb` — recommendation system for fans (nearest neighbors + cosine similarity, PCA/t-SNE for visualization)
-- `Agglomerative Cluster.ipynb` - hierarchical clustering for combining player value and wage (dendrogram for visualization)
+- `Agglomerative_Clustering.ipynb` - hierarchical clustering for combining player value and wage (dendrogram for visualization)
 
 ---
 
@@ -81,7 +81,7 @@ Notes:
 - `Recommendation.ipynb` — Recommendation notebook
   - Builds a player recommendation system for fans using feature standardization, dimensionality reduction (PCA / t-SNE), and NearestNeighbors with cosine similarity.
 
-- `Agglomerative Clustering.ipynb` - Author: Amariah2001
+- `Agglomerative_Clustering.ipynb` - Author: Amariah2001
   - Creates a hierarchical clustering visualization (dendrogram) that clusters together players values and wages to see similarities between players.
 ---
 
