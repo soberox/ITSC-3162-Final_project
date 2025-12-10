@@ -89,6 +89,7 @@ Thanks to everyone that contributed. The commit history shows the following auth
 - RoadLamp (Streetlight321)
 - Dokja (TheOldestDreamer)
 - JonathanC12 (jonathan)
+- Amariah2001 (Amariah) 
 
 If you provided work in one of the notebooks but don't see your preferred name above, feel free to update the README or open a PR with the correct credit.
 
