@@ -11,6 +11,7 @@ This repository collects the work of multiple team members who analyzed the data
 - **Classification** — predicting player attributes (example: preferred foot)
 - **Regression** — predicting player market value using linear models and XGBoost
 - **Recommendation** — nearest-neighbors based player recommendation (cosine similarity / k-NN)
+- **Clustering** - Agglomerative Hierarchical Clustering based on player wage and value
 
 Each solution is contained in its own Jupyter notebook so you can inspect the exploratory data analysis (EDA), preprocessing steps, modeling code, and visualizations.
 
@@ -23,6 +24,7 @@ Each solution is contained in its own Jupyter notebook so you can inspect the ex
 - `XGBoostRegressionProjectNotebook.ipynb` — XGBoost model to predict player value (field players only)
 - `classifying-which-preferred-foot-is-most-likely.ipynb` — classification model predicting preferred foot (RandomForest)
 - `Recommendation.ipynb` — recommendation system for fans (nearest neighbors + cosine similarity, PCA/t-SNE for visualization)
+- `Agglomerative Cluster.ipynb` - hierarchical clustering for combining player value and wage (dendrogram for visualization)
 
 ---
 
@@ -79,6 +81,8 @@ Notes:
 - `Recommendation.ipynb` — Recommendation notebook
   - Builds a player recommendation system for fans using feature standardization, dimensionality reduction (PCA / t-SNE), and NearestNeighbors with cosine similarity.
 
+- `Agglomerative Clustering.ipynb` - Author: Amariah2001
+  - Creates a hierarchical clustering visualization (dendrogram) that clusters together players values and wages to see similarities between players.
 ---
 
 ## Contributors (git authors)
